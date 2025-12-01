@@ -1,16 +1,74 @@
-# React + Vite
+# Account Manager – React + Vite + Tailwind
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple **Account Management** demo application built with **React (Vite)** and **Tailwind CSS**.
 
-Currently, two official plugins are available:
+🌐 **Live Demo (Vercel):**  
+👉 https://account-manage-ivory.vercel.app
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+📌 **GitHub Repository:**  
+👉 https://github.com/Raahul423/account-manage.git
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Users can:
 
-## Expanding the ESLint configuration
+- Register a new account  
+- Log in with their credentials  
+- View and edit their account information  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+
+## ✨ Features
+
+- ✅ User registration (name, email, password)
+- ✅ Login with email & password
+- ✅ View logged-in user details
+- ✅ Edit/update account information
+- ✅ Persistent login using `localStorage`
+- ✅ Protected route for the Account page
+- ✅ Clean, modern UI with Tailwind CSS
+- ✅ Built using React + Vite for fast dev experience
+
+
+
+## 🛠 Tech Stack
+
+- **React** (Vite)
+- **React Router DOM**
+- **Tailwind CSS**
+- **LocalStorage** for demo auth
+
+
+
+## 🚀 Getting Started
+
+### 1. Prerequisites
+
+Make sure you have installed:
+
+- **Node.js** (v16+ recommended)
+- **npm** (comes with Node) or **yarn**
+
+
+
+## ⚙️ Setup / Run Locally
+
+# Clone repository
+git clone  https://github.com/Raahul423/account-manage.git
+
+cd account-manager
+
+# Install dependencies
+npm install
+
+# Start development
+npm run dev
+
+
+
+📌 Author
+---
+👨‍💻 Built by Rahul Pal
+
+📧 Contact: rpal24480@gmail.com
+
